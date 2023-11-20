@@ -1,9 +1,25 @@
 import creational.CoffeeMachine;
 import creational.PrototypeSoldier;
 import creational.Singleton;
+import structual.bridge.Circle;
+import structual.bridge.Shape;
+import structual.bridge.Yellow;
+import structual.facade.ComputerService;
+import structual.facade.FacadeComputer;
+import structual.proxy.FileProxy;
+import structual.proxy.FileServiceInter;
 
 public class Main {
     public static void main(String[] args) {
+//        FileServiceInter fileService = new FileProxy("admin");
+//        fileService.write();
+//        fileService.read();
+
+//        Shape circle = new Circle(new Yellow());
+//        circle.draw();
+
+//        ComputerService computer = new FacadeComputer();
+//        computer.turnOnComputer();
 
 //        CoffeeMachine coffeeMachine =  new CoffeeMachine.CoffeeMachineBuilder("latte","milk").setArt(true)
 //                .setSize(3).build();
