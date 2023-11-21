@@ -1,16 +1,16 @@
-import creational.CoffeeMachine;
-import creational.PrototypeSoldier;
-import creational.Singleton;
-import structual.bridge.Circle;
-import structual.bridge.Shape;
-import structual.bridge.Yellow;
-import structual.facade.ComputerService;
-import structual.facade.FacadeComputer;
-import structual.proxy.FileProxy;
-import structual.proxy.FileServiceInter;
+import behavioral.strategy.CreditCard;
+import behavioral.strategy.PaymentProcess;
+import behavioral.template.Americano;
+import behavioral.template.Coffee;
 
 public class Main {
     public static void main(String[] args) {
+//        Coffee coffee = new Americano();
+//        coffee.prepareCoffee();
+
+//        PaymentProcess payment = new PaymentProcess(new CreditCard());
+//        payment.payment(4000);
+
 //        FileServiceInter fileService = new FileProxy("admin");
 //        fileService.write();
 //        fileService.read();
